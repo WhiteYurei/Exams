@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    list-style-type: none;
+    background: #eee;
+    font-size: 16px;
+    transition: 0.2s;
+    width: 55%;
+  }
+
+  ul li:hover {
+    background: #ddd;
+  }
+
+  ul li.checked {
+    background: gray;
+    color: #fff;
+    text-decoration: line-through;
+  }
+
+  .close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+  }
+
+  .close:hover {
+    background-color: #00008B;
+    color: white;
+  }
+
+  .header {
+    background-color: #DC143C;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+    width: 55%;
+  }
+
+  .header:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  input {
+    margin: 0;
+    border: none;
+    width: 50%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+  }
+
+  .addBtn {
+    padding: 10px;
+    width: 25%;
+    background: #FFC0CB;
+    color: black;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    }
+
+    .addBtn:hover {
+      background-color: #DB7093;
+    }
+
+  .save_data {
+    padding: 8px;
+    width: 13%;
+    background: rgb(71, 70, 70);
+    color: white;
+    float: left;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+  }
